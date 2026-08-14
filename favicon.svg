@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AlpskiMedved claw mark">
+  <rect width="64" height="64" rx="12" fill="#111820"/>
+  <g fill="#ffc400" transform="rotate(-8 32 32)">
+    <path d="M13 23c2-6 5-8 7-7 2 2 1 8-1 15s-5 16-8 15c-4-1-1-14 2-23Z"/>
+    <path d="M25 16c2-7 5-9 7-7 3 3 0 12-2 21-2 10-4 19-8 18-4-1 0-21 3-32Z"/>
+    <path d="M38 13c2-7 5-9 7-7 3 3 0 13-2 23-2 11-4 20-8 19-4-1 0-23 3-35Z"/>
+    <path d="M51 21c2-6 5-8 7-6 3 3-1 12-3 20-2 8-4 14-7 13-4-2 0-19 3-27Z"/>
+  </g>
+</svg>
