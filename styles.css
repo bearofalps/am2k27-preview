@@ -61,6 +61,7 @@ img { display: block; max-width: 100%; }
 .nav { display: flex; align-items: center; gap: 24px; font-size: .82rem; }
 .nav a { opacity: .72; transition: opacity .2s ease, color .2s ease; }
 .nav a:hover, .nav a[aria-current="location"] { opacity: 1; color: var(--amber-bright); }
+.nav .language-link { opacity: 1; color: var(--amber-pale); font-size: .68rem; font-weight: 800; letter-spacing: .1em; }
 .nav-cta { border: 1px solid rgba(255, 255, 255, .28); padding: 10px 14px; border-radius: 999px; }
 .nav .nav-cta:hover { border-color: var(--amber-bright); }
 .menu-toggle { display: none; border: 0; background: none; color: white; cursor: pointer; }
@@ -74,6 +75,7 @@ img { display: block; max-width: 100%; }
   background: url("assets/network-field-editorial-optimized.jpg") 66% center / cover no-repeat;
   transform: scale(1.015);
 }
+html[lang="sl"] .hero-media { background-image: url("assets/network-field-editorial-optimized.jpg"); }
 .hero::before {
   content: ""; position: absolute; z-index: -2; inset: 0;
   background:

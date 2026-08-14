@@ -78,7 +78,22 @@ if ('IntersectionObserver' in window && observedSections.length) {
 
 const briefButton = document.querySelector('[data-copy-brief]');
 const copyStatus = document.querySelector('[data-copy-status]');
-const briefText = `AlpskiMedved.solutions — project brief
+const isSlovenian = document.documentElement.lang.toLowerCase().startsWith('sl');
+const briefText = isSlovenian ? `AlpskiMedved.solutions — izhodišče projekta
+
+Lokacija in okolje:
+
+Kaj odpoveduje in kdaj:
+
+Kdo ali kaj je prizadeto:
+
+Kaj mora ostati v delovanju:
+
+Trenutna povezljivost in oprema, če sta znani:
+
+Časovne omejitve ali pomembni datumi:
+
+Kako je videti uspešen rezultat:` : `AlpskiMedved.solutions — project brief
 
 Location and environment:
 
@@ -110,8 +125,10 @@ async function copyBrief() {
     if (!copied) throw error;
   }
 
-  if (copyStatus) copyStatus.textContent = 'Project brief copied — paste it into your preferred message or notes app.';
-  if (briefButton) briefButton.textContent = 'Brief copied';
+  if (copyStatus) copyStatus.textContent = isSlovenian
+    ? 'Izhodišče je kopirano — prilepite ga v sporočilo ali zapiske.'
+    : 'Project brief copied — paste it into your preferred message or notes app.';
+  if (briefButton) briefButton.textContent = isSlovenian ? 'Izhodišče kopirano' : 'Brief copied';
 }
 
 briefButton?.addEventListener('click', copyBrief);
