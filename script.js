@@ -136,3 +136,4 @@ briefButton?.addEventListener('click', copyBrief);
 document.querySelectorAll('[data-year]').forEach((year) => {
   year.textContent = String(new Date().getFullYear());
 });
+
