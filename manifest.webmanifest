@@ -1,8 +1,8 @@
 {
   "name": "AlpskiMedved.solutions",
   "short_name": "AlpskiMedved",
-  "description": "Independent network architecture and field infrastructure for difficult operating environments.",
-  "lang": "en",
+  "description": "Neodvisna omrežna arhitektura in terenska infrastruktura za zahtevna operativna okolja.",
+  "lang": "sl",
   "start_url": "/",
   "scope": "/",
   "display": "minimal-ui",
@@ -17,4 +17,3 @@
     }
   ]
 }
-
