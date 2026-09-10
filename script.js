@@ -17,7 +17,7 @@ if (menuButton && nav) {
     setMenu(menuButton.getAttribute('aria-expanded') !== 'true');
   });
 
-  navLinks.forEach((link) => link.addEventListener('click', () => setMenu(false)));
+  nav.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => setMenu(false)));
 
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape' && menuButton.getAttribute('aria-expanded') === 'true') {
@@ -136,4 +136,3 @@ briefButton?.addEventListener('click', copyBrief);
 document.querySelectorAll('[data-year]').forEach((year) => {
   year.textContent = String(new Date().getFullYear());
 });
-
