@@ -32,7 +32,7 @@ const briefLocales = {
     labels: {
       context: 'Okolje delovanja', location: 'Lokacija in okolje',
       problem: 'Kaj odpoveduje in kdaj', impact: 'Kdo ali kaj je prizadeto',
-      critical: 'Kaj mora ostati v delovanju', current: 'Trenutna povezljivost in oprema',
+      critical: 'Kaj mora ves čas delovati', current: 'Trenutna povezljivost in oprema',
       timing: 'Časovne omejitve ali pomembni datumi', success: 'Kakšen bi bil uspešen izid'
     }
   }
